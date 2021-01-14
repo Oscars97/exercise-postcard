@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Sofia', cursive;
+    position: relative;
+}
+.postcard{
+    background-color: #fff;
+    margin: 5% auto;
+    position: relative;
+    width: 45%;
+    height: 450px;
+    border: solid red 2px;
+
+}
+.header{
+    position: relative;
+    margin-bottom: 50px;
+}
+.bigTitle{
+    position: relative;
+    left: 3%;
+}
+img{
+    width: 10%;
+    position: absolute;
+    left: 87%;
+    top: 1%;
+}
+.body{
+    position: relative;
+}
+.text{
+    position: relative;
+    width: 50%;
+    left: 2%;
+    font-size: 1.1em;
+}
+.info{
+    position: absolute;
+    width: 50%;
+    left: 60%;
+    top: 10%;
+}
+input{
+    width: 200px;
+    font-family: 'Sofia', cursive;
+    border: none;
+    border-bottom: black 2px solid;
+    padding: 2%;
+}
+textarea{
+    margin-top: 10px;
+    width: 210px;
+}
+
+button{
+    position: relative;
+    left: 37%;
+    top: 15%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
